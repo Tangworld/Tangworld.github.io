@@ -1,7 +1,7 @@
 # Site settings
 title: Tworld Blog
 SEOTitle: Tworld的博客 | Tworld Blog
-header-img: img/post-bg-desk.jpg
+header-img: img/post_bg_desktop.jpg
 email: tworld293@gmail.com
 description: "你只有竭尽全力，才能看起来毫不费力。"
 keyword: "Tworld, Tworld Blog, Tworld的博客, tsj, cs, HHU, NJU, WEB, Android, Bug Locate"
@@ -12,7 +12,7 @@ github_repo: "https://github.com/Tangworld/Tangworld.github.io.git" # you code r
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "just try it again,and again,and again"
-sidebar-avatar: img/avatar-by.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
