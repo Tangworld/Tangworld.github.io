@@ -4,12 +4,20 @@ title: "About"
 description: "Hey, this is Tworld."
 header-img: "img/post_bg_about.jpg"
 ---
-
+<link href="/css/flat-ui.css" rel="stylesheet">
+<link href="/css/demo.css" rel="stylesheet">
 <!-- Language Selector -->
-<select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
-    <option value="0" selected> 中文 Chinese </option>
+<!--<select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">-->
+    <!--<option value="0" selected> 中文 Chinese </option>-->
+    <!--<option value="1"> 英文 English </option>-->
+<!--</select>-->
+<div class="col-xs-3">
+  <h3 class="demo-panel-title">Select</h3>
+  <select class="form-control select select-primary" data-toggle="select" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
+    <option value="0"> 中文 Chinese </option>
     <option value="1"> 英文 English </option>
-</select>
+  </select>
+</div> <!-- /.col-xs-3 -->
 
 <!-- Chinese Version -->
 <div class="zh post-container">
